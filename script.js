@@ -45,4 +45,8 @@ form.addEventListener("submit", (e) => {
     if (city) {
         getWeatherByLocation(city);
     }
+    else
+    {
+        console.log("No such city exists");
+    }
 });
